@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="432.0" fitWidth="720.0" layoutX="-113.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../images/pngtree-black-and-white-gym-room-with-a-row-of-equipment-image_2911173.jpg" />
+         </image>
+      </ImageView>
+      <VBox layoutX="484.0" layoutY="-1.0" opacity="0.82" prefHeight="400.0" prefWidth="126.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="82.0" prefWidth="116.0" style="-fx-background-color: black; -fx-border-color: gray;" text="Attendance" textFill="WHITE">
+               <font>
+                  <Font name="Consolas Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="83.0" prefWidth="116.0" style="-fx-background-color: black; -fx-border-color: gray;" text="Equipment" textFill="WHITE">
+               <font>
+                  <Font name="Consolas Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="35.0" mnemonicParsing="false" prefHeight="81.0" prefWidth="116.0" style="-fx-background-color: black; -fx-border-color: gray;" text="Member" textFill="WHITE">
+               <font>
+                  <Font name="Consolas Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="61.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="116.0" style="-fx-background-color: black; -fx-border-color: gray;" text="Trainer" textFill="WHITE">
+               <font>
+                  <Font name="Consolas Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="61.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="116.0" style="-fx-background-color: black; -fx-border-color: gray;" text="Payment" textFill="WHITE">
+               <font>
+                  <Font name="Consolas Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <ImageView fitHeight="81.0" fitWidth="78.0" layoutY="-2.0" opacity="0.59" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../images/6fe5b60a28f821ae5672385cf0ed2a4c.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
