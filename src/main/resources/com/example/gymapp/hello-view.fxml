@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gymapp.HelloController">
    <children>
       <ImageView fitHeight="432.0" fitWidth="720.0" layoutX="-113.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -22,7 +22,7 @@
                   <Font name="Consolas Bold" size="15.0" />
                </font>
             </Button>
-            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="83.0" prefWidth="116.0" style="-fx-background-color: black; -fx-border-color: gray;" text="Equipment" textFill="WHITE">
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#equipmentpage" prefHeight="83.0" prefWidth="116.0" style="-fx-background-color: black; -fx-border-color: gray;" text="Equipment" textFill="WHITE">
                <font>
                   <Font name="Consolas Bold" size="15.0" />
                </font>
