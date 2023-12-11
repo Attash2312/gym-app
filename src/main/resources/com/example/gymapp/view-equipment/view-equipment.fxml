@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="412.0" fitWidth="606.0" pickOnBounds="true">
+         <image>
+            <Image url="@207064975-blurred-gym-background-for-presentation-banners-that-has-exercise-equipment-many-and-many-kinds-ther.jpg" />
+         </image>
+      </ImageView>
+      <VBox layoutX="371.0" layoutY="-1.0" prefHeight="412.0" prefWidth="229.0">
+         <children>
+            <Button mnemonicParsing="false" opacity="0.77" prefHeight="84.0" prefWidth="229.0" style="-fx-background-color: black; -fx-border-color: gray;" text="Weighted Equipment" textFill="WHITE">
+               <font>
+                  <Font name="Consolas Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" opacity="0.77" prefHeight="84.0" prefWidth="229.0" style="-fx-background-color: black; -fx-border-color: gray;" text="Cardio Equipment" textFill="WHITE">
+               <font>
+                  <Font name="Consolas Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="94.0" mnemonicParsing="false" opacity="0.94" prefHeight="84.0" prefWidth="229.0" style="-fx-background-color: black; -fx-border-color: gray;" text="Home" textFill="WHITE">
+               <font>
+                  <Font name="Consolas Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
