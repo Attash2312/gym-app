@@ -23,4 +23,29 @@ public class HelloController {
         HelloApplication.window.setScene(scene);
         HelloApplication.window.show();
     }
+    public void attendancepage() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("view-attendance.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        HelloApplication.window.setScene(scene);
+        HelloApplication.window.show();
+    }
+    public void memberpage() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("view-member.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        HelloApplication.window.setScene(scene);
+        HelloApplication.window.show();
+    }
+    public void paymentpage() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("view-payment.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        HelloApplication.window.setScene(scene);
+        HelloApplication.window.show();
+    }
+    public void trainerpage() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("view-trainer.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        HelloApplication.window.setScene(scene);
+        HelloApplication.window.show();
+    }
+
 }

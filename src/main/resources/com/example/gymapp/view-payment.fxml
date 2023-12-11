@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gymapp.ViewPayment">
+   <children>
+      <ImageView fitHeight="421.0" fitWidth="627.0" layoutX="-12.0" layoutY="-13.0" pickOnBounds="true">
+         <image>
+            <Image url="@pngtree-black-and-white-gym-room-with-a-row-of-equipment-image_2911173.jpg" />
+         </image>
+      </ImageView>
+      <CheckBox layoutX="23.0" layoutY="14.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="175.0" style="-fx-background-color: black;" text="gym fee" textFill="WHITE">
+         <font>
+            <Font name="Consolas Bold" size="17.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="23.0" layoutY="103.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="175.0" style="-fx-background-color: black;" text="trainer" textFill="WHITE">
+         <font>
+            <Font name="Consolas Bold" size="17.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="23.0" layoutY="198.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="175.0" style="-fx-background-color: black;" text="treadmill" textFill="WHITE">
+         <font>
+            <Font name="Consolas Bold" size="17.0" />
+         </font>
+      </CheckBox>
+      <Button layoutX="468.0" layoutY="324.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="139.0" style="-fx-background-color: black;" text="Home" textFill="WHITE" />
+   </children>
+</AnchorPane>

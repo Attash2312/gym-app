@@ -28,7 +28,7 @@
                </font>
             </Button>
             <Pane prefHeight="200.0" prefWidth="200.0" />
-            <Button layoutX="10.0" layoutY="94.0" mnemonicParsing="false" opacity="0.94" prefHeight="84.0" prefWidth="229.0" style="-fx-background-color: black; -fx-border-color: gray;" text="Home" textFill="WHITE">
+            <Button layoutX="10.0" layoutY="94.0" mnemonicParsing="false" onAction="#home" opacity="0.94" prefHeight="84.0" prefWidth="229.0" style="-fx-background-color: black; -fx-border-color: gray;" text="Home" textFill="WHITE">
                <font>
                   <Font name="Consolas Bold" size="15.0" />
                </font>
