@@ -12,7 +12,7 @@
    <children>
       <ImageView fitHeight="432.0" fitWidth="720.0" layoutX="-113.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../images/pngtree-black-and-white-gym-room-with-a-row-of-equipment-image_2911173.jpg" />
+            <Image url="@pngtree-black-and-white-gym-room-with-a-row-of-equipment-image_2911173.jpg" />
          </image>
       </ImageView>
       <VBox layoutX="484.0" layoutY="-1.0" opacity="0.82" prefHeight="400.0" prefWidth="126.0">
@@ -46,7 +46,7 @@
       </VBox>
       <ImageView fitHeight="81.0" fitWidth="78.0" layoutY="-2.0" opacity="0.59" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../images/6fe5b60a28f821ae5672385cf0ed2a4c.jpg" />
+            <Image url="@6fe5b60a28f821ae5672385cf0ed2a4c.jpg" />
          </image>
       </ImageView>
    </children>
